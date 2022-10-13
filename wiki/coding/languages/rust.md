@@ -1,5 +1,5 @@
 ---
-title: Rust
+title: rust
 ---
 
-Rust is a programming language.
+rust is a programming language.
