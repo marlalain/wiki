@@ -1,0 +1,18 @@
+{
+  "site": {
+    "title": "alex's wiki",
+    "description": "alex is trying not to forget everything she learns",
+    "url": "https://wiki.alexaa.dev/",
+    "rootCrumb": "home"
+  },
+  "author": {
+    "name": "alex/minsk",
+    "email": "wiki@alexaa.dev",
+    "url": "https://alexaa.dev"
+  },
+    "navigation": {
+        "about me": "https://alexaa.dev",
+        "github": "https://github.com/minsk-dev",
+        "twitter": "https://twitter.com/alexsyntaxtree"
+    }
+}
