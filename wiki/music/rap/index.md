@@ -2,6 +2,7 @@
 title: rap
 description: [insert cool joke here]
 date: 2022-10-13
+pinned: true
 ---
 
 ## my top 5 (wip) (do people still care about these?)
