@@ -1,5 +1,6 @@
 {
     "tasks": {
-        "dev": "deno run -A --unstable https://deno.land/x/ter/main.ts --serve --input ./wiki"
+        "dev": "deno run -A --unstable https://deno.land/x/ter/main.ts --serve --input ./wiki",
+        "build": "deno run -A --unstable https://deno.land/x/ter/main.ts --input ./wiki"
         }
     }

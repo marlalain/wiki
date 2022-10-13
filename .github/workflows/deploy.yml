@@ -1,33 +1,40 @@
 name: Deploy to Deno Deploy
 
 on:
-    push:
-        # Change if using a different production branch
-        branches: [ main ]
-        pull_request:
-            branches: [ main ]
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-    deploy:
-        name: Deploy
-        runs-on: ubuntu-latest
-        permissions:
-            id-token: write
-            contents: read
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
-        - name: Clone repository
+      - name: Clone repository
         uses: actions/checkout@v3
 
-        - name: Setup Deno
+      - name: Setup Deno
         uses: denoland/setup-deno@v1.1.0
 
-        - name: Build site
-        run: deno run -A --unstable https://deno.land/x/ter/main.ts --input ./wiki
+      - name: Setup Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.deno
+            ~/.cache/deno
+          key: ${{ runner.os }}-deno-${{ hashFiles('**/deps.ts') }}
 
-        - name: Deploy to Deno Deploy
+      - name: Build site
+        run: deno task build
+
+      - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-            project: wiki
-            entrypoint: https://deno.land/std/http/file_server.ts
-            root: _site
+          project: ter
+          entrypoint: https://deno.land/std/http/file_server.ts
+          root: _site
