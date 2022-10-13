@@ -1,18 +1,18 @@
 ---
-title: Project Euler
-description: Website dedicated to a series of computational problems intended to be solved with computer programs.
+title: project euler
+description: website dedicated to a series of computational problems intended to be solved with computer programs.
 date: 2022-10-13
 toc: true
 ---
 
-Some explanations about the first hundred project euler's problems.
+some explanations about the first hundred project euler's problems.
 
 ## [001](https://projecteuler.net/problem=1)
 
-This is a simple one. It asks for the sum of all multiples of 3 or 5 below 1000. <br />
-The number it asks is small enough that bruteforce will be quick enough to solve the problem on the website's time constraints.
+this is a simple one. it asks for the sum of all multiples of 3 or 5 below 1000. <br />
+the number it asks is small enough that bruteforce will be quick enough to solve the problem on the website's time constraints.
 
-##### Pseudocode Solution to Project Euler's 001 Problem
+##### pseudocode solution to project euler's 001 problem
 ```text
 sum = 0
 for x in 0 to 1000:
