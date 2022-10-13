@@ -3,6 +3,7 @@ title: project euler
 description: website dedicated to a series of computational problems intended to be solved with computer programs.
 date: 2022-10-13
 toc: true
+pinned: true
 ---
 
 some explanations about the first hundred project euler's problems.
