@@ -3,6 +3,12 @@ title: kendrick lamar
 date: 2022-10-13
 ---
 
+##### [DNA.](https://open.spotify.com/track/6HZILIRieu8S0iqY8kIKhj?si=529adce3e35d45e2), [DAMN.](https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=2YsOl4wnRUCgcxyRmgpr2g)
+> You ain't shit without a body on your belt <br/>
+> You ain't shit without a ticket on your plate <br/>
+> You ain't sick enough to pull it on yourself <br/>
+> You ain't rich enough to hit the lot and skate
+
 ## albums, ranked
 
 haven't heard the other ones
