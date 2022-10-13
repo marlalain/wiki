@@ -2,6 +2,7 @@
 title: MF DOOM
 description: the illest villain
 date: 2022-10-13
+pinned: true
 ---
 
 ###### [Beef Rapp](https://open.spotify.com/track/3dst21BU1yo7leS5njO5dC?si=56fba4c5651845a2), [MM..FOOD](https://open.spotify.com/album/1UcS2nqUhxrZjrBZ3tHk2N?si=sJLZWhaaRGamqT6VsXVQkA)
