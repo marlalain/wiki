@@ -1,18 +1,11 @@
 {
-  "site": {
-    "title": "marla's wiki",
-    "description": "marla is trying not to forget everything she learns",
-    "url": "https://marla.wiki/",
-    "rootCrumb": "~"
-  },
-  "author": {
-    "name": "Marla",
-    "email": "marla@powr.run",
-    "url": "https://alexaa.dev"
-  },
-    "navigation": {
-        "about me": "https://alexaa.dev",
-        "github": "https://github.com/minsk-dev",
-        "twitter": "https://twitter.com/alexsyntaxtree"
-    }
+  "title": "marla's wiki",
+  "description": "marla is trying not to forget everything she learns",
+  "url": "https://marla.wiki/",
+  "rootCrumb": "~",
+  "authorName": "Marla",
+  "authorEmail": "marla@powr.run",
+  "authorUrl": "https://alexaa.dev",
+  "lang": "en",
+  "codeHighlight": true
 }
